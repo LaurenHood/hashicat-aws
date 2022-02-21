@@ -5,8 +5,4 @@ module "s3_bucket" {
   acl    = "private"
   bucket_prefix = "lhood"
 
-  versioning = {
-    enabled = true
-  }
-
 }
